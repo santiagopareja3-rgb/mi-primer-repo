@@ -1,6 +1,10 @@
 #include <iostream>
 
-int main() {
+void saludar() {
     std::cout << "Hola, GitHub!" << std::endl;
+}
+
+int main() {
+    saludar();
     return 0;
 }
